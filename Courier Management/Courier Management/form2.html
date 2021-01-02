@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: black;
+            color: white;
+            margin: 56px 500px;
+
+        }
+
+        .login {
+            margin: 10px 124px;
+        }
+        /* .mail{
+            padding:0px 34px;
+        }
+        .password{
+            padding:0px 34px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="backend.php">
+            <label for="mail">E-mail:</label>
+            <div id="mail">
+                <input type="email" name="myEmail" id="mail">
+            </div>
+            <br>
+            <label for="Bonus">Enter your Password here:</label>
+            <div id="password">
+                <input type="text" name="password" id="Password">
+            </div>
+            <div class='login'>
+                <input type="submit" value="LOG IN">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

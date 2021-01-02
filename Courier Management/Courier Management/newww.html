@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .Container {
+            background-color: yellow;
+            border: 3px solid black;
+            margin:0px 34px;
+            padding: 0px 34px;
+
+        }
+
+        .write {
+            padding: 0px 34px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="Container">
+        <h2>Create Your Account</h2>
+        <form action="backend.php">
+            <label for="name">Name:</label>
+
+            <div>
+                <input type="text" name="myName" id="name">
+            </div>
+            <br>
+            <label for="role">Role:</label>
+            <div>
+                <input type="text" name="myRole" id='role'>
+            </div>
+            <br>
+            <label for="mail">E-mail:</label>
+            <div>
+                <input type="email" name="myEmail" id="mail">
+            </div>
+            <br>
+            <label for="date">Date Of Birth:</label>
+            <div>
+                <input type="date" name="myDate" id="date">
+            </div>
+            <br>
+            <label for="Bonus">Enter your Password here:</label>
+            <div>
+                <input type="text" name="password" id="Password">
+            </div>
+            <br>
+            <label for="Check">Are you eligible ?</label>
+            <!-- <div>
+                <input type="checkbox" name="myEligibility" id="Check">
+            </div> -->
+            <div>
+                Gender :Male<input type="radio" name="myGender">Female<input type="radio" name="myGender">
+                Other:<input type="radio" name="myGender">
+            </div>
+            <!-- <div class="write">
+                write about Yourself:<br><textarea name="myText" id="" cols="40" rows="15"></textarea>
+            </div> -->
+            <br>
+            <!-- <div>
+                <label for="car">Car</label>
+                <select name="mycar" id="car">
+                    <option value="ind">Indica</option>
+                    <option value="swf">Swift</option>
+                </select>
+            </div> -->
+            <br>
+            <div>
+                <input type="checkbox" name="myEligibility" id="Check">
+            </div>
+            <label for="Check">I hereby declare that the above furnished details are true to the best of my knowledge.I will be solemny responsible for any false information given by me.</label>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+</body>
+
+</body>
+
+</html>
